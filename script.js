@@ -17,6 +17,7 @@ const getSum = () => {
 
 	let tr = document.createElement('tr');
 	tr.classList.add('total-row');
+	tr.setAttribute('id','and')
 
 	// let td1 = document.createElement('td');
 	let td2 = document.createElement('td');
