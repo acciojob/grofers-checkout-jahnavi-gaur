@@ -6,7 +6,7 @@ const getSum = () => {
 	let sum = 0;
 
 	// Select only price cells
-	let prices = document.querySelectorAll('.price');
+	let prices = document.querySelectorAll('.prices');
 
 	prices.forEach((priceCell) => {
 		sum += Number(priceCell.textContent);
@@ -18,7 +18,7 @@ const getSum = () => {
 	let tr = document.createElement('tr');
 	tr.classList.add('total-row');
 
-	let td1 = document.createElement('td');
+	// let td1 = document.createElement('td');
 	let td2 = document.createElement('td');
 
 	// td1.innerText = "Total";
