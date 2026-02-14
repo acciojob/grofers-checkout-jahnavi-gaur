@@ -21,10 +21,10 @@ const getSum = () => {
 	let td1 = document.createElement('td');
 	let td2 = document.createElement('td');
 
-	td1.innerText = "Total";
+	// td1.innerText = "Total";
 	td2.innerText = sum;
 
-	tr.appendChild(td1);
+	// tr.appendChild(td1);
 	tr.appendChild(td2);
 
 	document.querySelector('table').appendChild(tr);
